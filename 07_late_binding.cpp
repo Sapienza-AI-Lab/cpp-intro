@@ -26,7 +26,7 @@ class B: public A {
 public:
   B(int value_):
     A(value_) {}
-  void print(){
+  void print() {
     cerr << "B: [" << this << "], value: " << _value << endl;
   }
 };
@@ -77,6 +77,4 @@ int main(int argc, char ** argv) {
     A_lb copy_of_b_as_a(b);
     copy_of_b_as_a.print();
   }
-
-  
 }

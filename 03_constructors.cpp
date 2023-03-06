@@ -45,7 +45,6 @@ struct A {
     //     ...
     //   }
 
-
     A(const A &other) {
         cerr << "A [" << this << "] copy ctor" << endl;
         my_value = other.my_value;
